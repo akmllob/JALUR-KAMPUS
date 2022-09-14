@@ -1,0 +1,93 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package akucumannyoba;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author AkmaL
+ */
+public class Masyaallah {
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        String masuk,golongan,golongan1,golongan2;
+        
+        System.out.println("SILAHKAN PILIH JALUR MASUK");
+        System.out.println("1. SBMPTN");
+        System.out.println("2. SNMPTN");
+        System.out.println("3. Mandiri");
+        masuk = input.nextLine();
+        
+        switch (masuk) {
+            case "1" :
+                System.out.println("pilihlah golongan berikut ini");
+                System.out.println("1. A");
+                System.out.println("2. B");
+                System.out.println("3. C");
+                System.out.println("Golongan yang anda pilih = ");
+                golongan = input.nextLine();
+                switch (golongan) {
+                    case "1" :
+                        System.out.println("DSP SEBESAR 5.000.000");
+                        System.out.println("SPP SEBESAR 500.OOO");
+                        break;
+                    case "2" :
+                        System.out.println("DSP SEBESAR 15.000.000");
+                        System.out.println("SPP SEBESAR 1.000.000");
+                        break;
+                    case "3" :
+                        System.out.println("DSP SEBESAR 30.000.000");
+                        System.out.println("SPP SEBESAR 2.000.000");
+                        break;
+                    }
+                break;
+            case "2" :
+                System.out.println("PILIHLAH GOLONGAN DIBAWAH INI");
+                System.out.println("1. A");
+                System.out.println("2. B");
+                System.out.println("3. C");
+                System.out.println("Golongan yang anda pilih = ");
+                golongan1 = input.nextLine();
+                switch (golongan1) {
+                    case "1" :
+                        System.out.println("DSP SEBESAR 7.000.000");
+                        System.out.println("SPP SEBESAR 500.000");
+                        break;
+                    case "2" :
+                        System.out.println("DSP SEBESAR 17.000.000");
+                        System.out.println("SPP SEBESAR 1.000.000");
+                        break;
+                    case "3" :
+                        System.out.println("DSP SEBESAR 35.000.000");
+                        System.out.println("SPP SEBESAR 2.000.000");
+                        break;
+                }
+                break;
+            case "3" :
+                System.out.println("PILIHLAH GOLONGAN DIBAWAH INI");
+                System.out.println("1. A");
+                System.out.println("2. B");
+                System.out.println("3. C");
+                System.out.println("Golongan yang anda pilih = ");
+                golongan2 = input.nextLine();
+                switch (golongan2) {
+                    case "1" :
+                        System.out.println("DSP SEBESAR 10.000.000");
+                        System.out.println("SPP SEBESAR 1.000.000");
+                        break;
+                    case "2" :
+                        System.out.println("DSP SEBESAR 25.000.000");
+                        System.out.println("SPP SEBESAR 2.000.000");
+                        break;
+                    case "3" :
+                        System.out.println("DSP SEBESAR 50.000.000");
+                        System.out.println("SPP SEBESAR 3.000.000");
+                        break;
+        }
+    }
+        System.out.println("TERIMAKASIHH BABAYYY LOP YOUU");    
+    }
+}
